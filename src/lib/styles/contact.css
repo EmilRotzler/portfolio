@@ -1,0 +1,37 @@
+/* contact.css */
+
+.contact-description {
+	margin-top: var(--space-sm);
+	color: var(--color-muted, var(--color-text));
+	font-size: 1.1rem;
+}
+
+.contact-socials {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.75rem;
+	margin-top: var(--space-lg);
+}
+
+.social-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 3.5rem;
+	height: 3.5rem;
+	border: 1px solid var(--color-primary);
+	color: var(--color-primary);
+	background: none;
+	text-decoration: none;
+	transition: background 0.15s, color 0.15s;
+}
+
+.social-btn:hover {
+	background: var(--color-primary);
+	color: var(--color-bg);
+}
+
+.social-btn :global(svg) {
+	width: 1.6rem;
+	height: 1.6rem;
+}

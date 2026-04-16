@@ -1,0 +1,28 @@
+/* education.css */
+
+.education .entry {
+	margin-bottom: var(--space-md);
+}
+
+.education .entry-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: var(--space-md);
+}
+
+.education h3 {
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.education .institution {
+	font-size: 0.9rem;
+	color: #555;
+}
+
+.education .dates {
+	font-size: 0.875rem;
+	white-space: nowrap;
+	color: #666;
+}

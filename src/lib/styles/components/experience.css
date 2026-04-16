@@ -1,0 +1,46 @@
+/* experience.css */
+
+.experience .entry {
+	margin-bottom: var(--space-lg);
+}
+
+.experience .entry-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: var(--space-md);
+	margin-bottom: 0.5rem;
+}
+
+.experience h3 {
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.experience .company {
+	font-size: 0.9rem;
+	color: #555;
+}
+
+.experience .company a {
+	color: var(--color-primary);
+	text-decoration: none;
+}
+
+.experience .company a:hover {
+	text-decoration: underline;
+}
+
+.experience .dates {
+	font-size: 0.875rem;
+	white-space: nowrap;
+	color: #666;
+}
+
+.experience ul {
+	padding-left: 1.25rem;
+	display: flex;
+	flex-direction: column;
+	gap: 0.25rem;
+	font-size: 0.9rem;
+}

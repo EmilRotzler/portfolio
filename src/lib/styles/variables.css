@@ -1,0 +1,19 @@
+/* CSS custom properties */
+
+:root {
+	--color-primary: #3b82f6;
+	--color-text: #1a1a1a;
+	--color-bg: #ffffff;
+
+	--space-sm: 0.5rem;
+	--space-md: 1rem;
+	--space-lg: 2rem;
+
+	--sidenav-width: 200px;
+	--topnav-height: 48px;
+}
+
+[data-theme='dark'] {
+	--color-text: #e5e7eb;
+	--color-bg: #111827;
+}

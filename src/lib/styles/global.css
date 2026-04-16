@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Reset & base */
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+	line-height: 1.5;
+	color: var(--color-text);
+	background: var(--color-bg);
+}
+
+/* Page transitions */
+
+@keyframes fade-in {
+	from {
+		opacity: 0;
+		transform: translateY(8px);
+	}
+}
+
+@keyframes fade-out {
+	to {
+		opacity: 0;
+		transform: translateY(-8px);
+	}
+}
+
+::view-transition-old(root) {
+	animation: 150ms ease-in fade-out;
+}
+
+::view-transition-new(root) {
+	animation: 200ms ease-out fade-in;
+}
+
+/* Layout */
+
+.with-sidenav {
+	padding-left: var(--sidenav-width);
+}
+
+.layout-toggle {
+	position: fixed;
+	top: var(--space-md);
+	right: var(--space-md);
+	z-index: 100;
+	view-transition-name: layout-toggle;
+	display: flex;
+	gap: 0.5rem;
+}
+
+@media (max-width: 600px) {
+	.with-sidenav {
+		padding-left: 0;
+	}
+
+	.layout-toggle.hide-mobile {
+		display: none;
+	}
+}
+
+/* CV section headings */
+section h2 {
+	font-size: 0.75rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: var(--color-primary);
+	border-bottom: 1px solid #e5e7eb;
+	padding-bottom: 0.25rem;
+	margin-bottom: var(--space-md);
+}
+
+/* Print */
+@page {
+	margin: 1.5cm;
+}
+
+@media print {
+	html,
+	body {
+		height: auto;
+		min-height: 0;
+		font-size: 10pt;
+	}
+
+	main {
+		padding: 0 !important;
+		max-width: 100% !important;
+	}
+
+	.with-sidenav {
+		padding-left: 0 !important;
+	}
+
+	.layout-toggle {
+		display: none !important;
+		position: static !important;
+	}
+
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
+
+	.no-print {
+		display: none !important;
+	}
+
+	section h2 {
+		margin-bottom: 0.25rem;
+	}
+
+	.about {
+		margin-bottom: 0.5rem;
+	}
+
+	.experience .entry {
+		margin-bottom: 0.5rem;
+	}
+
+	.cv-header {
+		padding-bottom: 0.5rem;
+	}
+
+	.skills .category {
+		padding-top: 0.5rem;
+	}
+}

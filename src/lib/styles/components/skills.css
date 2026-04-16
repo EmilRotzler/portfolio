@@ -1,0 +1,61 @@
+/* skills.css */
+
+.skills dl {
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-md);
+}
+
+.skills .category {
+	display: flex;
+	flex-direction: column;
+	gap: 0.4rem;
+	padding-top: var(--space-md);
+	border-top: 1px solid #e5e7eb;
+}
+
+.skills .category:first-child {
+	padding-top: 0;
+	border-top: none;
+}
+
+.skills dt {
+	font-size: 0.75rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: #888;
+}
+
+.skills .items {
+	display: flex;
+	flex-direction: column;
+	gap: 0.3rem;
+}
+
+.skills dd {
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 0.9rem;
+}
+
+.skills .dots {
+	display: flex;
+	gap: 4px;
+}
+
+.skills .dot {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border: 2px solid var(--color-primary);
+	background: transparent;
+}
+
+.skills .dot.filled {
+	background: var(--color-primary);
+	print-color-adjust: exact;
+	-webkit-print-color-adjust: exact;
+}

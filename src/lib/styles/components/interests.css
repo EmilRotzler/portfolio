@@ -1,0 +1,15 @@
+/* interests.css */
+
+.interests {
+	/* margin-bottom: var(--space-lg); */
+}
+
+.interests-list {
+	font-size: 0.9rem;
+	line-height: 1.6;
+}
+
+.interests-list .sep {
+	color: var(--color-primary);
+	padding: 0 0.3rem;
+}
