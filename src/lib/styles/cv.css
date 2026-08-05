@@ -45,6 +45,22 @@
 
 @media print {
 	.cv-body {
+		display: flex;
+		align-items: flex-start;
 		gap: calc(var(--space-md) + 10px);
+	}
+
+	.cv-sidebar {
+		width: 30%;
+		flex: none;
+	}
+
+	.cv-main {
+		flex: 1;
+	}
+
+	.entry,
+	.interests {
+		break-inside: avoid;
 	}
 }

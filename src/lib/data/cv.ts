@@ -1,5 +1,6 @@
 import sailingImg from '$lib/assets/interests/sailing.jpg?w=1200&format=webp&quality=80&imagetools';
 import gamingImg from '$lib/assets/interests/gaming.jpg?w=1200&format=webp&quality=80&imagetools';
+import fitnessImg from '$lib/assets/interests/fitness.jpg?w=1200&format=webp&quality=80&imagetools';
 
 // Shared data — language-independent
 
@@ -79,7 +80,7 @@ const cvShared = {
 	interests: [
 		{ subject: 'Sailing', image: sailingImg },
 		{ subject: 'Gaming', image: gamingImg },
-		{ subject: 'Fitness', image: '/interests/fitness.jpg' },
+		{ subject: 'Fitness', image: fitnessImg },
 	],
 };
 
