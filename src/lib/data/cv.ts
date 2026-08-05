@@ -178,7 +178,7 @@ const cvTranslations = {
 					'Oprettede en native kode til React Native bro for push-beskeder på iOS',
 					'Tilføjede server-side caching af API-forespørgsler, hvilket resulterede i 30% hurtigere initial sideindlæsning',
 					'Oprettede et filhåndteringssystem til upload og opbevaring af filer på lagerdrev',
-					'Automatiseret testning via CI/CD pipeline',
+					'Automatiseret testing via CI/CD pipeline',
 					'Tilføjede lokalisering (sprog og tid) i fuldt custom kodet projekt',
 				],
 			},
