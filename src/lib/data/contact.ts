@@ -5,13 +5,13 @@ export interface Social {
 }
 
 export const socials: Social[] = [
+	{ name: 'Email', icon: 'simple-icons:gmail', href: 'mailto:emilarotzler@hotmail.com' },
 	{ name: 'GitHub', icon: 'simple-icons:github', href: 'https://github.com/EmilRotzler' },
 	{
 		name: 'LinkedIn',
 		icon: 'simple-icons:linkedin',
 		href: 'https://linkedin.com/in/emil-rotzler/',
 	},
-	{ name: 'Email', icon: 'simple-icons:gmail', href: 'mailto:emilarotzler@hotmail.com' },
 	{
 		name: 'Discord',
 		icon: 'simple-icons:discord',

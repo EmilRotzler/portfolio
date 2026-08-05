@@ -27,7 +27,7 @@ const cvShared = {
 			{ name: 'React Native', rating: 5 },
 			{ name: 'Entity Framework', rating: 5 },
 			{ name: 'Elastic stack (ELK)', rating: 3 },
-			{ name: 'Laravel', rating: 2 },
+			{ name: 'Laravel', rating: 3 },
 			{ name: 'Angular', rating: 1 },
 			{ name: 'Svelte / SvelteKit', rating: 1 },
 		],
