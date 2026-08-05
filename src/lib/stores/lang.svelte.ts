@@ -1,8 +1,6 @@
 const stored = typeof window !== 'undefined' ? localStorage.getItem('lang') : null;
-const browserLang =
-	typeof window !== 'undefined' && navigator.language.startsWith('da') ? 'da' : 'en';
 
-let current = $state<'en' | 'da'>(stored === 'en' || stored === 'da' ? stored : browserLang);
+let current = $state<'en' | 'da'>(stored === 'en' || stored === 'da' ? stored : 'da');
 
 export const lang = {
 	get current() {
