@@ -73,8 +73,8 @@ const cvShared = {
 		{
 			institution: 'Erhvervsakademi Aarhus',
 			location: 'Aarhus, Danmark',
-			from: '2016',
-			to: '2020',
+			from: '2014',
+			to: '2018',
 		},
 	],
 	interests: [
