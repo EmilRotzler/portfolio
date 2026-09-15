@@ -1,6 +1,7 @@
 import passiveLearningImg from '$lib/assets/projects/passive-learning-app.png?w=1200&format=webp&quality=80&imagetools';
 import ttsTestImg from '$lib/assets/projects/tts-test.png?w=1200&format=webp&quality=80&imagetools';
 import portfolioImg from '$lib/assets/projects/portfolio.png?w=1200&format=webp&quality=80&imagetools';
+import apiTesting from '$lib/assets/projects/api-testing.png?w=1200&format=webp&quality=80&imagetools';
 
 export interface Project {
 	title: string;
@@ -11,6 +12,14 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+	{
+		title: 'API Testing',
+		description:
+			'Collection of API testing exercises and experiments covering request scripting and validation.',
+		image: apiTesting,
+		url: 'https://github.com/EmilRotzler/api-testing',
+		tags: ['API', 'Auth', 'C#'],
+	},
 	{
 		title: 'Passive Learning App',
 		description:
