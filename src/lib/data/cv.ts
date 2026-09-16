@@ -37,11 +37,11 @@ const cvShared = {
 			{ name: 'CI/CD', rating: 3 },
 			{ name: 'Docker', rating: 3 },
 		],
-		'Operating Systems': [
-			{ name: 'Windows', rating: 5 },
-			{ name: 'Linux', rating: 3 },
-			{ name: 'MacOs', rating: 2 },
-		],
+		// 'Operating Systems': [
+		// 	{ name: 'Windows', rating: 5 },
+		// 	{ name: 'Linux', rating: 3 },
+		// 	{ name: 'MacOs', rating: 2 },
+		// ],
 		Platforms: [
 			{ name: 'Microsoft Azure', rating: 3 },
 			{ name: 'AWS', rating: 2 },
