@@ -2,6 +2,7 @@ import passiveLearningImg from '$lib/assets/projects/passive-learning-app.png?w=
 import ttsTestImg from '$lib/assets/projects/tts-test.png?w=1200&format=webp&quality=80&imagetools';
 import portfolioImg from '$lib/assets/projects/portfolio.png?w=1200&format=webp&quality=80&imagetools';
 import apiTesting from '$lib/assets/projects/api-testing.png?w=1200&format=webp&quality=80&imagetools';
+import productChallengeImg from '$lib/assets/projects/product-challenge.png?w=1200&format=webp&quality=80&imagetools';
 
 export interface Project {
 	title: string;
@@ -12,6 +13,14 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+	{
+		title: 'Product Challenge',
+		description:
+			'Product listing app built with Next.js as a timed 4-hour challenge, featuring category pages, product grids, and filtering/sorting.',
+		image: productChallengeImg,
+		url: 'https://github.com/EmilRotzler/product-challenge',
+		tags: ['React.js', 'Next.js', 'TypeScript'],
+	},
 	{
 		title: 'API Testing',
 		description:
